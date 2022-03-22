@@ -5,10 +5,18 @@ console.log(6*7);
 console.log(6/7);
 
 console.log('------------- #6');
-console.log('1 2 3 4 5');
+let string = '';
+for (let i = 1; i <= 5; i++) {
+    string = string + i + ' ';       
+}
+console.log(string);
 
 console.log('------------- #7');
-console.log('5 4 3 2 1');
+let string2 = '';
+for (let i = 5; i >= 1; i--) {
+    string2 = string2 + i + ' ';       
+}
+console.log(string2);
 
 console.log('------------- #8');
 function getMarkInfo(condition) {
